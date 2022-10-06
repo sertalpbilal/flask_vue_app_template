@@ -33,7 +33,7 @@ function read_local_file(url) {
 }
 
 $(document).ready(() => {
-    read_local_file("events.csv").then((d) => {
+    read_local_file("static/data/my_data.csv").then((d) => {
         app.data = d
     })
 })
